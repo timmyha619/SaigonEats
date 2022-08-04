@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89244CDC289BB182007B949A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89244CDB289BB182007B949A /* MapView.swift */; };
+		89244CE0289BCE62007B949A /* SpotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89244CDF289BCE62007B949A /* SpotCard.swift */; };
 		8995684528967A5C00C4FEEB /* SaigonEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995684428967A5C00C4FEEB /* SaigonEatsApp.swift */; };
 		8995684728967A5C00C4FEEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995684628967A5C00C4FEEB /* ContentView.swift */; };
 		8995684928967A5C00C4FEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8995684828967A5C00C4FEEB /* Assets.xcassets */; };
 		8995684C28967A5C00C4FEEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8995684B28967A5C00C4FEEB /* Preview Assets.xcassets */; };
+		8995685528967C2200C4FEEB /* spots.json in Resources */ = {isa = PBXBuildFile; fileRef = 8995685428967C2200C4FEEB /* spots.json */; };
+		8995685928967C5A00C4FEEB /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995685828967C5A00C4FEEB /* Spot.swift */; };
+		8995685B28967C6500C4FEEB /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995685A28967C6500C4FEEB /* ModelData.swift */; };
+		8995685D2896B92D00C4FEEB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995685C2896B92D00C4FEEB /* HomePage.swift */; };
+		8995686C2896C66100C4FEEB /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8995686A2896C66100C4FEEB /* PlayfairDisplay-Bold.ttf */; };
+		8995686D2896C66100C4FEEB /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8995686B2896C66100C4FEEB /* PlayfairDisplay-Regular.ttf */; };
+		899568712897849A00C4FEEB /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899568702897849A00C4FEEB /* OverlayView.swift */; };
+		899568732897C5BA00C4FEEB /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899568722897C5BA00C4FEEB /* OpeningView.swift */; };
+		899568792897D53400C4FEEB /* SpotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899568782897D53400C4FEEB /* SpotList.swift */; };
+		8995687B2898C4E000C4FEEB /* SpotRow .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995687A2898C4E000C4FEEB /* SpotRow .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89244CDB289BB182007B949A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		89244CDF289BCE62007B949A /* SpotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotCard.swift; sourceTree = "<group>"; };
 		8995684128967A5C00C4FEEB /* SaigonEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaigonEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8995684428967A5C00C4FEEB /* SaigonEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaigonEatsApp.swift; sourceTree = "<group>"; };
 		8995684628967A5C00C4FEEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8995684828967A5C00C4FEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8995684B28967A5C00C4FEEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8995685428967C2200C4FEEB /* spots.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = spots.json; sourceTree = "<group>"; };
+		8995685828967C5A00C4FEEB /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		8995685A28967C6500C4FEEB /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8995685C2896B92D00C4FEEB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		8995686A2896C66100C4FEEB /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		8995686B2896C66100C4FEEB /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		899568702897849A00C4FEEB /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		899568722897C5BA00C4FEEB /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		899568782897D53400C4FEEB /* SpotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotList.swift; sourceTree = "<group>"; };
+		8995687A2898C4E000C4FEEB /* SpotRow .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpotRow .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,9 @@
 		8995683828967A5C00C4FEEB = {
 			isa = PBXGroup;
 			children = (
+				899568692896C66100C4FEEB /* Fonts */,
+				8995685328967ABD00C4FEEB /* Model */,
+				8995685228967AB500C4FEEB /* Views */,
 				8995684328967A5C00C4FEEB /* SaigonEats */,
 				8995684228967A5C00C4FEEB /* Products */,
 			);
@@ -52,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				8995684428967A5C00C4FEEB /* SaigonEatsApp.swift */,
-				8995684628967A5C00C4FEEB /* ContentView.swift */,
 				8995684828967A5C00C4FEEB /* Assets.xcassets */,
 				8995684A28967A5C00C4FEEB /* Preview Content */,
 			);
@@ -65,6 +91,41 @@
 				8995684B28967A5C00C4FEEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8995685228967AB500C4FEEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8995684628967A5C00C4FEEB /* ContentView.swift */,
+				8995685C2896B92D00C4FEEB /* HomePage.swift */,
+				899568702897849A00C4FEEB /* OverlayView.swift */,
+				899568722897C5BA00C4FEEB /* OpeningView.swift */,
+				899568782897D53400C4FEEB /* SpotList.swift */,
+				8995687A2898C4E000C4FEEB /* SpotRow .swift */,
+				89244CDB289BB182007B949A /* MapView.swift */,
+				89244CDF289BCE62007B949A /* SpotCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8995685328967ABD00C4FEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8995685428967C2200C4FEEB /* spots.json */,
+				8995685828967C5A00C4FEEB /* Spot.swift */,
+				8995685A28967C6500C4FEEB /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		899568692896C66100C4FEEB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8995686A2896C66100C4FEEB /* PlayfairDisplay-Bold.ttf */,
+				8995686B2896C66100C4FEEB /* PlayfairDisplay-Regular.ttf */,
+			);
+			name = Fonts;
+			path = "../../Downloads/Furniture-Shop-App-UI-SwiftUI-Starting_Project/Furniture_app/Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +186,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8995686D2896C66100C4FEEB /* PlayfairDisplay-Regular.ttf in Resources */,
+				8995686C2896C66100C4FEEB /* PlayfairDisplay-Bold.ttf in Resources */,
 				8995684C28967A5C00C4FEEB /* Preview Assets.xcassets in Resources */,
 				8995684928967A5C00C4FEEB /* Assets.xcassets in Resources */,
+				8995685528967C2200C4FEEB /* spots.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +201,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8995687B2898C4E000C4FEEB /* SpotRow .swift in Sources */,
+				899568792897D53400C4FEEB /* SpotList.swift in Sources */,
+				89244CDC289BB182007B949A /* MapView.swift in Sources */,
+				8995685D2896B92D00C4FEEB /* HomePage.swift in Sources */,
+				89244CE0289BCE62007B949A /* SpotCard.swift in Sources */,
+				899568712897849A00C4FEEB /* OverlayView.swift in Sources */,
 				8995684728967A5C00C4FEEB /* ContentView.swift in Sources */,
+				8995685B28967C6500C4FEEB /* ModelData.swift in Sources */,
 				8995684528967A5C00C4FEEB /* SaigonEatsApp.swift in Sources */,
+				8995685928967C5A00C4FEEB /* Spot.swift in Sources */,
+				899568732897C5BA00C4FEEB /* OpeningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +343,7 @@
 				DEVELOPMENT_TEAM = PRXN3DNT2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaigonEats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +373,7 @@
 				DEVELOPMENT_TEAM = PRXN3DNT2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaigonEats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

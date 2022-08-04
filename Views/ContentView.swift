@@ -13,11 +13,14 @@
 
 import SwiftUI
 
-@main
-struct SaigonEatsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ContentView: View {
+    var body: some View {
+        OpeningView()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        SpotList()
     }
 }

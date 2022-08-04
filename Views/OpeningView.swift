@@ -13,11 +13,22 @@
 
 import SwiftUI
 
-@main
-struct SaigonEatsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct OpeningView: View {
+    @State var isOpeningActive: Bool = true
+    var body: some View {
+
+ZStack {
+    if isOpeningActive {
+        HomePage(active: $isOpeningActive)
+    } else {
+        SpotList()
     }
+}
+}
+}
+
+struct OpeningView_Previews: PreviewProvider {
+static var previews: some View {
+OpeningView()
+}
 }
