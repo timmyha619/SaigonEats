@@ -11,7 +11,6 @@
  -https://www.behance.net/gallery/63351389/Street-Vendors-The-Sidewalk-Cuisine-of-Vietnam
 */
 
-
 import SwiftUI
 import CoreLocation
 struct SpotCard: View {
@@ -28,10 +27,16 @@ struct SpotCard: View {
                     .frame(width: 390, height: 250, alignment: .center)
                     .padding()
                     .shadow(color: .brown, radius: 5)
+                    
+                    Text(spot.name)
+                        .font(.custom("PlayfairDisplay-Regular", size: 20))
+                    .foregroundColor(Color("Primary"))
+                    .padding(.vertical, -5)
+                    
                    
                     MapView(coordinate: spot.locationCoordinate)
                         .edgesIgnoringSafeArea(.top)
-                        .frame(width: 390, height: 180)
+                        .frame(width: 390, height: 200)
                         .padding()
                     
                     RoundedRectangle(cornerRadius: 25)
@@ -62,11 +67,10 @@ struct SpotCard: View {
                     
                     
                     Text(spot.description)
-                        .font(.custom("PlayfairDisplay-Regular", size: 20))
                         .foregroundColor(Color("Primary"))
                         .padding()
                         .multilineTextAlignment(.center)
-                    
+                        .font(.custom("PlayfairDisplay-Regular", size: 20))
                     
 
                 

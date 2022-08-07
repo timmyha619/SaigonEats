@@ -16,28 +16,34 @@ import SwiftUI
 struct SpotList: View {
     var body: some View {
        
-
+        ZStack{
+            Color("Bg")
     
     NavigationView{
     
     List(spots) { spot in
         
+        
         NavigationLink{
             SpotCard(spot: spot)
+            
         }
         
     label: {
             SpotRow(spot: spot)
         }
-    .frame(width:2000)
-    .padding(.horizontal, 30)
+    
+    .frame(width: 2000, alignment: .center)
+    .padding(.horizontal, 40)
     .navigationBarTitle("The Holy Grails", displayMode: .inline)
     .navigationBarHidden(true)
+
         
     }
-}
+    } .background(Color("Bg"))
 }
     }
+}
 
 struct SpotList_Previews: PreviewProvider {
 static var previews: some View {
